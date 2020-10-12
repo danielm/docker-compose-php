@@ -1,10 +1,11 @@
-FROM php:7.2-fpm-alpine
+FROM php:7.4-fpm-alpine
 
 COPY ./php.ini /usr/local/etc/php/conf.d/docker-php-config.ini
 
 RUN apk --update --no-cache add git
 
 RUN docker-php-ext-install pdo_mysql
+RUN docker-php-ext-install sysvsem
 
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 

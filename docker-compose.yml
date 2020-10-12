@@ -25,12 +25,13 @@ services:
     environment:
       - APP_ENV=${APP_ENV}
       - APP_SECRET=${APP_SECRET}
-      - DATABASE_URL=mysql://${DB_USER}:${DB_PASSWORD}@mariadb:3306/${DB_NAME}?serverVersion=5.7
+      - DATABASE_URL=mysql://${DB_USER}:${DB_PASSWORD}@mariadb:3306/${DB_NAME}
     volumes:
       - ./src:/var/www
       #- ./build/php-fpm/php.ini:/usr/local/etc/php/conf.d/docker-php-config.ini
     restart: 'always'
     container_name: 'sc-php-fpm'
+    user: ${HOST_USER}
   nginx:
     build:
       context: ./build/nginx
