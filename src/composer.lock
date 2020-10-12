@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a131a8cd900fbaa201e311a07394ce2c",
+    "packages": [
+        {
+            "name": "danielm/hola",
+            "version": "0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/danielm/hola.git",
+                "reference": "be365cc7fa085b5d6a742a5ec849f0aeaa1f69c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/danielm/hola/zipball/be365cc7fa085b5d6a742a5ec849f0aeaa1f69c0",
+                "reference": "be365cc7fa085b5d6a742a5ec849f0aeaa1f69c0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Danielm\\Hola\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Morales",
+                    "email": "daniel85mg@gmail.com"
+                }
+            ],
+            "description": "Dummy composer package",
+            "support": {
+                "issues": "https://github.com/danielm/hola/issues",
+                "source": "https://github.com/danielm/hola/tree/0.0.3"
+            },
+            "time": "2021-04-23T05:25:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
