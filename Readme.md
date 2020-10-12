@@ -1,5 +1,5 @@
 
-# Docker Compose + PHP 7.2
+# Docker Compose + PHP 7.4
 
 Clone me and build cool stuff. This sets up some minimal containers with Nginx, PHP and MariaDB and installs your composer dependencies *(src/composer.json)*; potentially  run migrations but that's up to you and what framework you use (see build/php-fpm/Dockerfile)
 
